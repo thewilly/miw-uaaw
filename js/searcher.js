@@ -14,38 +14,38 @@ async function search(){
       
     let results = 0;
  
-    $.get( "/index.html", function( data ) {
+    $.get( "/miw-uaaw//index.html", function( data ) {
        let content = data;
        let result = content.toLowerCase().search(criteria)
         if(result!=-1){
-            $('#searchResults').append($("<p><a href='/index.html'>Inicio</a></p>"))
+            $('#searchResults').append($("<p><a href='/miw-uaaw//index.html'>Inicio</a></p>"))
             results++;
         }
     }); 
 
-    $.get( "/aficiones.html", function( data ) {
+    $.get( "/miw-uaaw/aficiones.html", function( data ) {
         let content = data;
         let result = content.toLowerCase().search(criteria)
         if(result!=-1){
-            $('#searchResults').append($("<p><a href='/aficiones.html'>Aficiones</a></p>"))
+            $('#searchResults').append($("<p><a href='/miw-uaaw/aficiones.html'>Aficiones</a></p>"))
             results++;
         }
       });
 
-    $.get( "/publicaciones.html", function( data ) {
+    $.get( "/miw-uaaw/publicaciones.html", function( data ) {
         let content = data;
        let result = content.toLowerCase().search(criteria)
        if(result!=-1){
-            $('#searchResults').append($("<p><a href='/publicaciones.html'>Publicaciones</a></p>"))
+            $('#searchResults').append($("<p><a href='/miw-uaaw/publicaciones.html'>Publicaciones</a></p>"))
             results++;
        }
       });
 
-    await $.get( "/proyectos.html", function( data ) {
+    await $.get( "/miw-uaaw/proyectos.html", function( data ) {
         let content = data;
         let result = content.toLowerCase().search(criteria)
         if(result!=-1){
-            $('#searchResults').append($("<p><a href='/proyectos.html'>Proyectos</a></p>"))
+            $('#searchResults').append($("<p><a href='/miw-uaaw/proyectos.html'>Proyectos</a></p>"))
             results++;
         }
       });
