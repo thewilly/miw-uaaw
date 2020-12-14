@@ -1,0 +1,213 @@
+/*
+ Done by Guillermo Facundo Colunga.
+ */
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-MediumItalic.eot');
+    src: url('../fonts/SanFranciscoText-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-MediumItalic.woff') format('woff'),
+        url('../fonts/SanFranciscoText-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-Heavy.eot');
+    src: url('../fonts/SanFranciscoText-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-Heavy.woff') format('woff'),
+        url('../fonts/SanFranciscoText-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Heavy.eot');
+    src: url('../fonts/SanFranciscoDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Heavy.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-RegularItalic.eot');
+    src: url('../fonts/SanFranciscoText-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-RegularItalic.woff') format('woff'),
+        url('../fonts/SanFranciscoText-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-Light.eot');
+    src: url('../fonts/SanFranciscoText-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-Light.woff') format('woff'),
+        url('../fonts/SanFranciscoText-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-Bold.eot');
+    src: url('../fonts/SanFranciscoText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-Bold.woff') format('woff'),
+        url('../fonts/SanFranciscoText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-Semibold.eot');
+    src: url('../fonts/SanFranciscoText-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-Semibold.woff') format('woff'),
+        url('../fonts/SanFranciscoText-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-LightItalic.eot');
+    src: url('../fonts/SanFranciscoText-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-LightItalic.woff') format('woff'),
+        url('../fonts/SanFranciscoText-LightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-HeavyItalic.eot');
+    src: url('../fonts/SanFranciscoText-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-HeavyItalic.woff') format('woff'),
+        url('../fonts/SanFranciscoText-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Regular.eot');
+    src: url('../fonts/SanFranciscoDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Regular.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Regular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Medium.eot');
+    src: url('../fonts/SanFranciscoDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Medium.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Ultralight.eot');
+    src: url('../fonts/SanFranciscoDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Ultralight.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Thin.eot');
+    src: url('../fonts/SanFranciscoDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Thin.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-BoldItalic.eot');
+    src: url('../fonts/SanFranciscoText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-BoldItalic.woff') format('woff'),
+        url('../fonts/SanFranciscoText-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-SemiboldItalic.eot');
+    src: url('../fonts/SanFranciscoText-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-SemiboldItalic.woff') format('woff'),
+        url('../fonts/SanFranciscoText-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-Regular.eot');
+    src: url('../fonts/SanFranciscoText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-Regular.woff') format('woff'),
+        url('../fonts/SanFranciscoText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Black.eot');
+    src: url('../fonts/SanFranciscoDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Black.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Light.eot');
+    src: url('../fonts/SanFranciscoDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Light.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Bold.eot');
+    src: url('../fonts/SanFranciscoDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Bold.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('../fonts/SanFranciscoDisplay-Semibold.eot');
+    src: url('../fonts/SanFranciscoDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoDisplay-Semibold.woff') format('woff'),
+        url('../fonts/SanFranciscoDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Text';
+    src: url('../fonts/SanFranciscoText-Medium.eot');
+    src: url('../fonts/SanFranciscoText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SanFranciscoText-Medium.woff') format('woff'),
+        url('../fonts/SanFranciscoText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

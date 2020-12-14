@@ -1,0 +1,36 @@
+/*
+ GUILLERMO FACUNDO COLUNGA -- LEW 2020
+
+ THIS CSS CONTAINS ONLY THE STYLES THAT AFFECT THE NAV BAR.
+*/
+
+/*THE NAV BAR SHOULD BE FULL WIDTH AND CENTERED*/
+header > nav {
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+/*ALL THE ELEMENTS ON THE NAV BAT SHOULD BE LINKS OF A TYPE, THEREFORE THIS RULES AFFECTS THEM*/
+header > nav > a {
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline-block;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+}
+
+/*WHEN THE ELEMENT OF THE NAV IS HOVER BY THE MOUSE*/
+header > nav > a:hover {
+    opacity: .65;
+}
+
+/*WHEN THE ELEMENT OF THE NAV CORRESPONDS TO THE CURRENT PAGE*/
+header > nav > a.current {
+    opacity: .65;
+    cursor: default;
+}

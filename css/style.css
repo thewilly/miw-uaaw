@@ -1,0 +1,24 @@
+/*
+ GUILLERMO FACUNDO COLUNGA -- LEW 2020
+
+ THIS CSS CONTAINS ONLY THE STYLES THAT THE SITE MAY TAKE.
+*/
+html {
+    font-family: "SF Display", BlinkMacSystemFont, sans-serif, Helvetica, Arial;
+    background-color: #fff;
+}
+
+header {
+    background: #333;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    line-height: 2.1;
+    font-weight: 400;
+    font-family: "SF Text";
+    color: #fff;
+}
+
+body {
+    line-height: 1.8;
+    color: #000;
+}
