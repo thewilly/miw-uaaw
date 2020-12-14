@@ -14,11 +14,11 @@ async function search(){
       
     let results = 0;
  
-    $.get( "/miw-uaaw//index.html", function( data ) {
+    $.get( "/miw-uaaw/index.html", function( data ) {
        let content = data;
        let result = content.toLowerCase().search(criteria)
         if(result!=-1){
-            $('#searchResults').append($("<p><a href='/miw-uaaw//index.html'>Inicio</a></p>"))
+            $('#searchResults').append($("<p><a href='/miw-uaaw/index.html'>Inicio</a></p>"))
             results++;
         }
     }); 
